@@ -1,0 +1,24 @@
+{
+  "name": "nodecopter-server",
+  "version": "1.0.0",
+  "description": "Simple hapi server to drive my parrot mini drone",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warbrett/nodecopter-server.git"
+  },
+  "author": "Brett Warner <brett@warbrett.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/warbrett/nodecopter-server/issues"
+  },
+  "homepage": "https://github.com/warbrett/nodecopter-server",
+  "dependencies": {
+    "hapi": "^8.5.2",
+    "joi": "^6.4.3",
+    "rolling-spider": "^1.1.2"
+  }
+}
