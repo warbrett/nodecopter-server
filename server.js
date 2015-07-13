@@ -26,6 +26,15 @@ server.route({
   }
 });
 
+server.route({
+  method: 'OPTIONS',
+  path: '/{p}',
+  handler: function (request, reply) {
+    reply();
+  }
+});
+
+
 console.log('connecting to copter');
 copter.connect(function(){
   console.log('connected, now running setup');
